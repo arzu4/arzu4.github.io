@@ -1,0 +1,32 @@
+*{
+	text-align: right;
+}
+body{
+	background-image: url(bgimage.jpg);
+	background-size: cover;
+}
+h2 + p:hover {
+	color: red;
+	border: 5px solid rgb(255, 176, 170, 0.3);
+    cursor: pointer;
+    text-align: center;
+}
+p{
+	color: green;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+.web:first-child{
+	border: 5px dashed purple;
+}
+.page{
+	color: blue;
+}
+#div1{
+	background-color: rgba(0, 0, 255, 0.2);
+}
+#div2{
+	background-color: rgba(255, 0, 0, 0.2);
+}
